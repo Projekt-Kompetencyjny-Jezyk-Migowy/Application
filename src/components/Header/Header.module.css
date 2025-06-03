@@ -10,4 +10,21 @@
   align-items: center;
   background-color: hsla(216, 18%, 16%, 0.8);
 }
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+  width: 25rem;
+  height: 80%;
+}
+
+.buttonWrapper {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }

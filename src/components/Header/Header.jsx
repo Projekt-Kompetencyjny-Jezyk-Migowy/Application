@@ -1,5 +1,5 @@
 import styles from './Header.module.css'
-import SmallButton from '../SmallButton';
+import SmallButton from '../SmallButton/SmallButton';
 
 function Header() {
     const handleRegisterClick = () => {
@@ -12,8 +12,26 @@ function Header() {
 
     return ( 
         <div className={styles.header}>
-            <SmallButton label="Register" color='red' onClick={() => handleRegisterClick()} />
-            <SmallButton label="Login"  color='blue'  onClick={() => handleLoginClick()} />
+            <div className={styles.buttonContainer}>
+                <div className={styles.buttonWrapper}>
+                    <SmallButton 
+                        backgroundColor='#1E1825' 
+                        color='#00ADB5' 
+                        borderColor='#00ADB5' 
+                        text='Zarejestruj się' 
+                        onClick={() => handleLoginClick()}
+                    />
+                </div>
+                <div className={styles.buttonWrapper}>
+                    <SmallButton 
+                        backgroundColor='#1E1825' 
+                        color='#EAC435' 
+                        borderColor='#EAC435' 
+                        text='Zaloguj się' 
+                        onClick={() => handleLoginClick()}
+                    />
+                </div>
+            </div>
         </div>
     )   
 }
