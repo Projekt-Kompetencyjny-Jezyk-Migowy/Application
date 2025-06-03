@@ -1,0 +1,13 @@
+@media (max-width:1600px) {
+.header {
+  position: fixed;
+  top: 0;
+  height: 5.5rem;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: hsla(216, 18%, 16%, 0.8);
+}
+}

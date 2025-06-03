@@ -6,8 +6,6 @@ function SmallButton (props) {
         border: 'none',
         borderRadius: '0.5rem',
         margin: '1rem',
-        marginTop: '1.5rem',
-        marginBottom: '0.5rem',
         fontWeight: 'bold',
         fontSize: '1.2em',
         minWidth: '12rem',
