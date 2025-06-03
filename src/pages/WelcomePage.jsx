@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import AboutProject from '../components/AboutProject';
+import AboutProject from '../components/AboutProject/AboutProject';
 
 function WelcomePage() {
 
